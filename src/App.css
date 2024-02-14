@@ -1,0 +1,22 @@
+/* App.css */
+
+body, html, #root, .App {
+  height: 100%;
+  margin: 0;
+  overflow: hidden; /* Prevents scrolling */
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000; /* Sets the background color to black */
+}
+
+/* Adjust the canvas to fill the screen */
+canvas {
+  display: block;
+  background-color: #000; /* Optional: in case the canvas is smaller than the window */
+}
+
+
